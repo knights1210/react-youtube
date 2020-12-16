@@ -1,14 +1,13 @@
-import React from 'react'
-import Layout from '../components/Layout/Layout'
-import {VideoDetail} from '../components/VideoDetail/VideoDetail'
+import React from "react";
+import Layout from "../components/Layout/Layout";
+import { VideoDetail } from "../components/VideoDetail/VideoDetail";
 
 const Watch = () => {
   return (
-    <Layout >
+    <Layout>
       <VideoDetail />
-      Watch page
     </Layout>
-  )
-}
+  );
+};
 
-export default Watch
+export default Watch;
