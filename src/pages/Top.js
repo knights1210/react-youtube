@@ -16,6 +16,7 @@ const Top = () => {
         payload: { popular: res.data.items },
       });
     });
+    // eslint-disable-next-line
   }, []);
   return (
     <Layout>
